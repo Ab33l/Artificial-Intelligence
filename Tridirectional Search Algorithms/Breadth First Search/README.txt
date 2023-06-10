@@ -26,3 +26,7 @@ Breadth_First_Search( Graph, X ):
     If Z is not visited:
         Q. enqueue( Z )     // Stores Z in Q
         Mark Z as visited
+
+BFS is suitable for finding shortest paths, exploring graphs in a layered manner, or searching for nodes at fixed distances.
+
+It explores the graph level by level, visiting all the neighbors of a vertex before moving on to the next level.

@@ -30,3 +30,6 @@ Step 1: Create a recursive function that takes the index of the node and a visit
 Step 2: Mark the current node as visited and print the node.
 Step 3: Traverse all the adjacent and unmarked nodes and call the recursive function with the index of the adjacent node.
 Step 4: Run a loop from 0 to the number of vertices and check if the node is unvisited in the previous DFS, then call the recursive function with the current node.
+
+DFS is useful for exhaustive searching, topological sorting, and detecting cycles or connected components.
+It explores the graph by going as deep as possible before backtracking.
