@@ -7,3 +7,5 @@ It can be beneficial in memory-constrained environments and scenarios where the 
 We can consider bidirectional approach when:
 1) Both initial and goal states are unique and completely defined.
 2) The branching factor is exactly the same in both directions.
+
+The appraoch uses BFS, and it considers undirected paths without any weight.
